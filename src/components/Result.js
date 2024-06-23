@@ -1,9 +1,9 @@
 const Result = ()=>{
     console.log("success")
     return(
-        <div className="flex justify-center items-center text-white h-screen ">
+        <div className="flex justify-center items-center text-white ">
           
-        <p className="-translate-y-[10rem] text-[3rem]" >
+        <p className=" text-[3rem]" >
         Welcome to Torned Education
           <br/><br/>
           This is our Result page

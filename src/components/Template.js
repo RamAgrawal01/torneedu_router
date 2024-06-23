@@ -1,5 +1,5 @@
 import React from "react";
-import frameImage from "../assets/frame.png"
+
 import LoginForm from "./LoginForm";
 import SignupForm from "./SignupForm";
 import { FcGoogle } from "react-icons/fc";
@@ -9,12 +9,12 @@ const Template = ({title,desc1,desc2,image,formtype,setIsLoggedIn}) =>{
     return(
         <div className="flex w-11/12 max-w-[1160px] mx-auto gap-x-12 gap-y-0  justify-between ">
 
-            <div className="w-11/12  max-w-[455px] ">
-                <h1 className="text-[#fafafa] font-semibold text-[1.875rem] leadng-[2.275rem]">{title}</h1>
+            <div className="w-11/12  max-w-[500px] mt-4">
+                <h1 className="text-[#ff7f50] font-semibold text-[1.875rem] leadng-[2.275rem]">{title}</h1>
                 <p className="text-[1.125rem] leading-[1.625rem] mt-3">
                     <span className="text-[#e5e5e5]">{desc1}</span>
                     <br/>
-                    <span className="text-[#93c5fd] italic">{desc2}</span>
+                    <span className="text-[#fca5a5] italic">{desc2}</span>
                 </p>
 
                 {formtype === "signup" ? <SignupForm setIsLoggedIn={setIsLoggedIn} /> :
@@ -27,7 +27,7 @@ const Template = ({title,desc1,desc2,image,formtype,setIsLoggedIn}) =>{
                  </div>
 
                  <button className="w-full flex justify-center items-center rounded-[8px] font-medium
-                 text-[#f5f5f4] border-[#a8a29e] px-[12px] py-[8px] gap-x-2 mt-3 bg-[#3d3d3d]
+                 text-[#f5f5f4] border-[#a8a29e] px-[12px] py-[8px] gap-x-2 mt-3 bg-[#1d4ed8]
                  hover:scale-105 hover:transition-all duration-200">
                  <p>Sign Up with Google</p><FcGoogle /></button>
 
@@ -35,12 +35,11 @@ const Template = ({title,desc1,desc2,image,formtype,setIsLoggedIn}) =>{
 
             {/* div for picture */}
 
-            <div className="relative w-11/12 max-w-[450px] translate-y-5">
-                <img src={frameImage} alt="Pattern" width={558} height={504} loading="lazy"
-                 />
+            <div className="relative w-11/12 max-w-[550px] mt-[5rem]">
+
                 
                 <img src={image} alt="patter"  loading="lazy"
-                className="absolute w-[500px] -top-4 right-4 "
+                className="absolute w-[500px] h-[420px] border-[#ffffff] border-2"
                 />
             </div>
 

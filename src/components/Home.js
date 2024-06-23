@@ -1,9 +1,9 @@
 import React  from "react";
 const Home = ()=>{
     return(
-        <div className= "flex justify-center items-center text-white h-screen "> 
+        <div className= "flex justify-center items-center text-white "> 
            
-           <p className="-translate-y-[10rem]"> This is Home Page 
+           <p> This is Home Page 
             <br/>
             !!!!!!!!!!!!!!!!
             Site is under Construction</p>

@@ -2,9 +2,9 @@ import React  from "react";
 const Dashboard = ()=>{
     console.log("dashboard wala page")
     return(
-        <div className="flex justify-center items-center text-white h-screen ">
+        <div className="flex justify-center items-center text-white  ">
           
-          <p className="-translate-y-[10rem] text-[3rem]" >
+          <p className="flex justify-center items-center text-[3rem]" >
           Welcome to Torned Education
             <br/><br/>
             !! Site is under Construction 

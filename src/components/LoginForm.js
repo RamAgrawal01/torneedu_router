@@ -37,10 +37,10 @@ const LoginForm = ({setIsLoggedIn}) =>{
         className="flex flex-col w-full gap-y-4 mt-6">
                 {/* Email FIeld */}
             <label className="w-full">
-                <p className="text-[1.15rem] text-[#e5e5e5] mb-2
+                <p className="text-[1.15rem] text-[#FFFFE0] mb-2
                 leading-[1.375rem]">Email Address<sup className="text-[#dc2626] text-[0.8rem]">*</sup></p>
 
-                <input className="bg-[#262626] rounded-[0.5rem] text-[#e5e5e5] w-full p-[12px]"
+                <input className="bg-[#1e40af] rounded-[0.5rem] text-[#FFFFE0] w-full p-[12px]"
                     type="email"
                     required
                     value={formData.email}
@@ -50,10 +50,10 @@ const LoginForm = ({setIsLoggedIn}) =>{
             </label>
                 {/* Password Field with both icons with forgot password */}
             <label className="w-full relative">
-            <p className="text-[1.15rem] text-[#e5e5e5] mb-2
+            <p className="text-[1.15rem] text-[#FFFFE0] mb-2
                 leading-[1.375rem]">Password<sup className="text-[#dc2626] text-[0.8rem]">*</sup></p>
 
-            <input className="bg-[#262626] rounded-[0.5rem] text-[#e5e5e5] w-full p-[12px]"
+            <input className="bg-[#1e40af] rounded-[0.5rem] text-[#FFFFE0] w-full p-[12px]"
              type={showPassword ? ("text") : ("password")}
             required  name="password"
             value={formData.password} placeholder="Enter Password"
@@ -70,8 +70,8 @@ const LoginForm = ({setIsLoggedIn}) =>{
             </label>
 
             {/* Button for Sign in  */}
-            <button className="bg-[#facc15] font-semibold text-[#050505] px-[12px] py-[8px] rounded-[8px]
-            hover:scale-105 hover:transition-all duration-200">
+            <button className="bg-[#ff7f50] border-[#ffffff]  font-semibold text-[#050505] px-[12px] py-[8px] rounded-[8px]
+            hover:scale-105 hover:transition-all duration-200 hover:font-bold">
                 Sign In</button>
 
 

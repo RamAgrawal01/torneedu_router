@@ -1,6 +1,6 @@
 
 import Template from "./Template";
-import loginImage from "../assets/login.png";
+import loginImage from "../assets/855418-hd_1920_1080_25fps.gif";
 
 const Login = ({setIsLoggedIn}) =>{
     
